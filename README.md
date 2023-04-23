@@ -18,4 +18,6 @@
 - LAB#.sql - пункты 1-6
 - conditions.txt - файл сути выполненного задания
 - task.txt - пункт 9
+- task7.drawio - пункт 7
+- graph.pbix - пункт 8
 - Beer_Party.bak - резервная копия используемой базы данных
