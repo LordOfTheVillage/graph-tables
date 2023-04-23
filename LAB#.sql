@@ -31,16 +31,16 @@ CREATE TABLE BeerPreference AS EDGE;
 CREATE TABLE PubOffersBeer (Amount FLOAT) AS EDGE;
 
 INSERT INTO Students (StudentID, StudentName, StudentAge)
-VALUES (1, 'Иванов Иван', 20),
-       (2, 'Петров Петр', 21),
-       (3, 'Сидоров Сидор', 19),
-       (4, 'Кузнецова Анна', 22),
-       (5, 'Баранова Елена', 18),
-       (6, 'Александрова Александра', 23),
-       (7, 'Краснова Наталья', 20),
-       (8, 'Михайлова Ирина', 21),
-       (9, 'Федорова Ольга', 19),
-       (10, 'Григорьева Анастасия', 22);
+VALUES (1, 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ', 20),
+       (2, 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ', 21),
+       (3, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ', 19),
+       (4, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ', 22),
+       (5, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ', 18),
+       (6, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', 23),
+       (7, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ', 20),
+       (8, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ', 21),
+       (9, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ', 19),
+       (10, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', 22);
 
 
 INSERT INTO BeerBrands (BeerBrandID, BeerBrandName, AlcoholContent)
@@ -49,23 +49,23 @@ VALUES (1, 'Heineken', 5),
        (3, 'Guinness', 4.2),
        (4, 'Corona', 4.6),
        (5, 'Stella Artois', 5.2),
-       (6, 'Beck’s', 5),
+       (6, 'BeckпїЅs', 5),
        (7, 'Hoegaarden', 4.9),
        (8, 'Leffe', 6.6),
        (9, 'Chimay', 8),
        (10, 'Duvel', 8.5);
 
 INSERT INTO Pubs (PubID, PubName, PubLocation)
-VALUES (1, 'The Irish Pub', 'Москва, ул. Ирландская, 10'),
-       (2, 'The Beer Factory', 'Санкт-Петербург, пр. Пивной, 20'),
-       (3, 'The Brewmaster', 'Казань, ул. Пивоварная, 5'),
-       (4, 'The Hoppy Monk', 'Екатеринбург, ул. Монастырская, 12'),
-       (5, 'The Beer Hunter', 'Ростов-на-Дону, пр. Охотничий, 15'),
-       (6, 'The Drunken Clam', 'Новосибирск, ул. Бухгалтерская, 7'),
-       (7, 'The Beer Cellar', 'Краснодар, ул. Пограничная, 2'),
-       (8, 'The Beer House', 'Сочи, ул. Пивная, 30'),
-       (9, 'The Taphouse', 'Владивосток, ул. Распродажная, 3'),
-       (10, 'The Pub with No Name', 'Хабаровск, ул. Безымянная, 8');
+VALUES (1, 'The Irish Pub', 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 10'),
+       (2, 'The Beer Factory', 'пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ, 20'),
+       (3, 'The Brewmaster', 'пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 5'),
+       (4, 'The Hoppy Monk', 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 12'),
+       (5, 'The Beer Hunter', 'пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ-пїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 15'),
+       (6, 'The Drunken Clam', 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 7'),
+       (7, 'The Beer Cellar', 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 2'),
+       (8, 'The Beer House', 'пїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ, 30'),
+       (9, 'The Taphouse', 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 3'),
+       (10, 'The Pub with No Name', 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 8');
 
 
 INSERT INTO Friendships
@@ -99,7 +99,7 @@ VALUES ((SELECT $node_id FROM Students WHERE StudentID = 1), (SELECT $node_id FR
 
 
 INSERT INTO PubOffersBeer
-VALUES ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 5), 100.00)
+VALUES ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 100.00)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 6), 120.00)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 1), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 105.50)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 4), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 40.50)
@@ -127,7 +127,7 @@ FROM  Students AS Student
  , Pubs AS Pub
 WHERE MATCH (Student-(Visits)->Pub)
 AND MATCH (Pub-(PubOffersBeer)->BeerBrand)
-AND Pub.PubLocation = 'Санкт-Петербург, пр. Пивной, 20' AND NOT BeerBrand.AlcoholContent > 6
+AND Pub.PubLocation = 'пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ, 20' AND NOT BeerBrand.AlcoholContent > 6
 
 -- Find all the people who are not friends with anyone themselves
 SELECT DISTINCT Student1.StudentName
@@ -170,7 +170,7 @@ FROM
 	Visits,
 	Pubs AS Pub
 WHERE MATCH(SHORTEST_PATH(Student1(-(FS)->Student2){1,3}) AND LAST_NODE(Student2)-(Visits)->Pub)
-AND Student1.StudentName = 'Иванов Иван'
+AND Student1.StudentName = 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ'
 AND (Pub.PubName = 'The Hoppy Monk' OR Pub.PubName = 'The Beer House')
 
 -- Select recursively friends and friends and friends of the student
@@ -182,4 +182,4 @@ FROM
 	Friendships FOR PATH AS FS,
 	Students FOR PATH  AS Student2
 WHERE MATCH(SHORTEST_PATH(Student1(-(FS)->Student2)+))
-AND Student1.StudentName = 'Иванов Иван'
+AND Student1.StudentName = 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ'
