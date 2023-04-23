@@ -99,7 +99,7 @@ VALUES ((SELECT $node_id FROM Students WHERE StudentID = 1), (SELECT $node_id FR
 
 
 INSERT INTO PubOffersBeer
-VALUES ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 100.00)
+VALUES ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 5), 100.00)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 5), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 6), 120.00)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 1), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 105.50)
 		, ((SELECT $node_id FROM Pubs WHERE PubID = 4), (SELECT $node_id FROM BeerBrands WHERE BeerBrandID = 1), 40.50)
